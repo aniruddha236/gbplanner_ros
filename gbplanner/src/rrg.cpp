@@ -2207,8 +2207,8 @@ bool Rrg::search(geometry_msgs::Pose source_pose,
   else
     return false;
   // visualization
-  visualization_->visualizeGraph(graph_search);
-  visualization_->visualizeSampler(random_sampler_to_search_);
+  // visualization_->visualizeGraph(graph_search);
+  // visualization_->visualizeSampler(random_sampler_to_search_);
 }
 
 ConnectStatus Rrg::findPathToConnect(
